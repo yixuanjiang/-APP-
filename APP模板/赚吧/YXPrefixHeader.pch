@@ -1,0 +1,22 @@
+//
+//  YXPrefixHeader.pch
+//  赚吧
+//
+//  Created by 265g on 16/6/30.
+//  Copyright © 2016年 Company. All rights reserved.
+//
+
+#ifndef YXPrefixHeader_pch
+#define YXPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "YXHeader.h"
+
+#define screenW [UIScreen mainScreen].bounds.size.width;
+#define screenH [UIScreen mainScreen].bounds.size.height;
+
+#import "YXHongBaoViewController.h"
+
+#endif /* YXPrefixHeader_pch */
